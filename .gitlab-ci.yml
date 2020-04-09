@@ -9,7 +9,7 @@ build:
   script: /usr/lib/jvm/java-8-openjdk-amd64/bin/javac Check_Sorting.java
   artifacts:
     paths:
-     - HelloWorld.*
+     - Check_Sorting.*
 
 execute:
   stage: execute
